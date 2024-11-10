@@ -1,0 +1,49 @@
+/* Sección de pronósticos */
+.pronosticos {
+    padding: 50px 20px;
+    background-color: #ffcc80;
+    text-align: center;
+}
+
+.pronosticos-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pronostico-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 80%;
+    text-align: left;
+}
+
+.pronostico-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pronostico-item input {
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.guardar-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guardar-btn:hover {
+    background-color: #45a049;
+}
